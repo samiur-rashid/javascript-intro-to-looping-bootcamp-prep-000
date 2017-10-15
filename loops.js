@@ -21,13 +21,17 @@ function whileLoop(number) {
 
 function doWhileLoop(array) {
 
+  var i = array.length
+
   do {
 
     function maybeTrue() {
       return Math.random() >= 0.5
     }
 
-  } while(array.length > 0 && maybeTrue())
+    array.splice
+
+  } while(array.length > 0 || maybeTrue())
 
   return array
 }
