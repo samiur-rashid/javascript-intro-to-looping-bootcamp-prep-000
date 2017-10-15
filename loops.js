@@ -18,20 +18,3 @@ function whileLoop(number) {
   }
   return 'done'
 }
-
-function doWhileLoop(array) {
-
-  var i = array.length
-
-  do {
-
-    function maybeTrue() {
-      return Math.random() >= 0.5
-    }
-
-    array.splice(i--)
-
-  } while(array.length > 0 || maybeTrue())
-
-  return array
-}
