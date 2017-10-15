@@ -27,9 +27,7 @@ function doWhileLoop(array) {
       return Math.random() >= 0.5
     }
 
-    array.splice(1)
-
-  } while(array.length > 0 || maybeTrue())
+  } while(array.length > 0 && maybeTrue())
 
   return array
 }
